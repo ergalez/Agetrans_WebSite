@@ -1,0 +1,13 @@
+body {
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Oswald', sans-serif; */
+}
+
+.header{
+    border: 1px solid red;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
