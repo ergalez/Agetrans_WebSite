@@ -108,14 +108,86 @@ ol, ul {
     background-color: #FFB712;
     border:none;
     outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
 }
 
 .contact-button:hover{
     color: black;
     background-color: white;
     outline : 0;
-
 }
+
+
+/* --------------ETIQUETAS PARA LA SECCIÓN ACERCA DE NOSOTROS */
+
+.who-are {
+    /* background: #FAFAFA; */
+    /* background: #F7F5ED; */
+    background: #F6F6F6;
+    padding: 20px;
+}
+.who-are h2{
+    padding-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:35px;
+    margin: 0px;
+    
+}
+
+.about-us{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 20px;
+}
+
+.about-us-details{
+    align-self: flex-start;
+}
+.who-are hr{
+    width: 100px;
+    border: none;
+    background-color: #FFB712;
+    height: 3px;
+    margin-top: 20px;
+}
+
+
+.about-us-details{
+    width: 500px;
+}
+
+.about-us-description{
+    font-size: 15px;
+}
+
+.about-us-imageContainer{
+    width: 500px;
+    object-fit: cover;
+}
+
+.about-us-button{
+    margin-top: 20px;
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    color: black;
+    background-color: #FFB712;
+    border:none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    /* box-shadow: 0 1px 4px 0 #333333, 0 1px 5px 0 #333333; */
+}
+
+.about-us-button:hover{
+    background-color: #1B1A1A;
+    outline : 0;
+    color: white;
+}
+
 /* ETIQUETAS GENERALES */
 .container {
     /* border: 1px solid blue; */
