@@ -29,7 +29,8 @@ body {
 }
 
 .header a:hover{
-    background-color: #FFB712;
+    /* background-color: #FFB712; */
+    background-color: #001B48;
     color: white;
 }
 .header ol {
@@ -69,7 +70,7 @@ ol, ul {
 
 .hero{
     height: 680px;
-    background-image: url('../images/fondo6.jpg') ;
+    background-image: url('../images/fondo5.jpg') ;
     background-size: cover;
     align-items: center;
     background-position: right;
@@ -94,7 +95,8 @@ ol, ul {
 .hero hr{
     width: 100px;
     border: none;
-    background-color: #FFB712;
+    /* background-color: #FFB712; */
+     background-color: #001B48;
     height: 3px;
     margin:0px;
 }
@@ -104,8 +106,10 @@ ol, ul {
     height: 65px;
     width: 200px;
     font-size: 13px;
-    color: black;
-    background-color: #FFB712;
+    /* color: black; */
+    color: white;
+    /* background-color: #FFB712; */
+    background-color: #001B48;
     border:none;
     outline: 0;
     font-family: 'Poppins', sans-serif;
@@ -149,7 +153,8 @@ ol, ul {
 .who-are hr{
     width: 100px;
     border: none;
-    background-color: #FFB712;
+    /* background-color: #FFB712; */
+    background-color: #001B48;
     height: 3px;
     margin-top: 5px;
 }
@@ -166,6 +171,7 @@ ol, ul {
 .about-us-imageContainer{
     width: 500px;
     object-fit: cover;
+    
 }
 
 .about-us-button{
@@ -173,8 +179,10 @@ ol, ul {
     height: 40px;
     width: 150px;
     font-size: 15px;
-    color: black;
-    background-color: #FFB712;
+    /* color: black; */
+    color: white;
+    /* background-color: #FFB712; */
+    background-color: #001B48;
     border:none;
     outline: 0;
     font-family: 'Poppins', sans-serif;
@@ -191,9 +199,10 @@ ol, ul {
 
 /* Etiquetas para el SERVICIO */
 .service-general {
-    background-color: #140B05;
+    /* background-color: #140B05; */
+    background-color: #001B48;
     color: white;
-    
+    padding: 20px;
 }
 
 .service-general h2 {
@@ -202,24 +211,58 @@ ol, ul {
     text-align: center;
     font-size:35px;
     margin: 0px;
+
 }
 
-.service-imageContainer{
-    width: 800px;
-    object-fit: cover;
-}
 .service-general hr {
     width: 100px;
     border: none;
-    background-color: #FFB712;
+    /* background-color: #FFB712; */
+     /* background-color: #004581; */
+     background-color: #018ABD;
     height: 3px;
     margin-top: 5px;
 }
 
 .service{
-    display: flex;
-    align-items: center;
+    margin: auto;
+    margin-top: 40px;
+    width: 900px;
+    height: 400px;
+    background-image: url('../images/fondo5.jpg');
+    background-position: center;
+    background-size: cover;
+    object-fit: contain;
+    text-align: center;
+    border-radius: 5px;
+    padding: 20px 40px;
 }
+
+.service h2{
+    padding: 0px;
+    margin-top: 40px;
+}
+
+.service hr {
+    width: 100px;
+    border: none;
+    background-color: white;
+    height: 3px;
+}
+.service h2{
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+.service-description{
+    margin-top: 50px;
+}
+
+.more-service{
+
+}
+
+
 /* ETIQUETAS GENERALES */
 .container {
     /* border: 1px solid blue; */
