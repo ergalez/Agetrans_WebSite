@@ -151,7 +151,7 @@ ol, ul {
     border: none;
     background-color: #FFB712;
     height: 3px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 
@@ -188,6 +188,38 @@ ol, ul {
     color: white;
 }
 
+
+/* Etiquetas para el SERVICIO */
+.service-general {
+    background-color: #140B05;
+    color: white;
+    
+}
+
+.service-general h2 {
+    padding-top: 60px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:35px;
+    margin: 0px;
+}
+
+.service-imageContainer{
+    width: 800px;
+    object-fit: cover;
+}
+.service-general hr {
+    width: 100px;
+    border: none;
+    background-color: #FFB712;
+    height: 3px;
+    margin-top: 5px;
+}
+
+.service{
+    display: flex;
+    align-items: center;
+}
 /* ETIQUETAS GENERALES */
 .container {
     /* border: 1px solid blue; */
@@ -199,4 +231,7 @@ ol, ul {
     align-items: inherit;
     flex-wrap: inherit;
 }
+
+
+
 
