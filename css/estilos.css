@@ -30,7 +30,7 @@ body {
 
 .header a:hover{
     /* background-color: #FFB712; */
-    background-color: #001B48;
+    background-color: #122134;
     color: white;
 }
 .header ol {
@@ -96,7 +96,8 @@ ol, ul {
     width: 100px;
     border: none;
     /* background-color: #FFB712; */
-     background-color: #001B48;
+     /* background-color: #001B48; */
+     background-color: #2962FF;
     height: 3px;
     margin:0px;
 }
@@ -109,11 +110,13 @@ ol, ul {
     /* color: black; */
     color: white;
     /* background-color: #FFB712; */
-    background-color: #001B48;
+    /* background-color: #001B48; */
+    background-color: #2962FF;
     border:none;
     outline: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    border-radius: 5px;
 }
 
 .contact-button:hover{
@@ -132,7 +135,7 @@ ol, ul {
     padding: 20px;
 }
 .who-are h2{
-    padding-top: 60px;
+    padding-top: 0px;
     text-transform: uppercase;
     text-align: center;
     font-size:35px;
@@ -154,7 +157,8 @@ ol, ul {
     width: 100px;
     border: none;
     /* background-color: #FFB712; */
-    background-color: #001B48;
+    /* background-color: #001B48; */
+    background-color: #2962FF;
     height: 3px;
     margin-top: 5px;
 }
@@ -182,11 +186,13 @@ ol, ul {
     /* color: black; */
     color: white;
     /* background-color: #FFB712; */
-    background-color: #001B48;
+    /* background-color: #001B48; */
+    background-color: #2962FF;
     border:none;
     outline: 0;
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    border-radius: 5px;
     /* box-shadow: 0 1px 4px 0 #333333, 0 1px 5px 0 #333333; */
 }
 
@@ -200,18 +206,18 @@ ol, ul {
 /* Etiquetas para el SERVICIO */
 .service-general {
     /* background-color: #140B05; */
-    background-color: #001B48;
+    /* background-color: #001B48; */
+    background-color: #122134;
     color: white;
     padding: 20px;
 }
 
 .service-general h2 {
-    padding-top: 60px;
+    padding-top: 0px;
     text-transform: uppercase;
     text-align: center;
     font-size:35px;
     margin: 0px;
-
 }
 
 .service-general hr {
@@ -219,7 +225,8 @@ ol, ul {
     border: none;
     /* background-color: #FFB712; */
      /* background-color: #004581; */
-     background-color: #018ABD;
+     /* background-color: #018ABD; */
+    background-color: #2962FF;
     height: 3px;
     margin-top: 5px;
 }
@@ -229,13 +236,16 @@ ol, ul {
     margin-top: 40px;
     width: 900px;
     height: 400px;
-    background-image: url('../images/fondo5.jpg');
+    background-image: url('../images/fondo11.jpg');
     background-position: center;
     background-size: cover;
     object-fit: contain;
     text-align: center;
     border-radius: 5px;
     padding: 20px 40px;
+    -webkit-box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.71);
+    -moz-box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.71);
+    box-shadow: 0px 2px 16px -1px rgba(0,0,0,0.71);
 }
 
 .service h2{
@@ -255,13 +265,221 @@ ol, ul {
 }
 
 .service-description{
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
-.more-service{
-
+.more-service-button{
+    height: 40px;
+    width: 150px;
+    font-size: 15px;
+    /* color: black; */
+    color: white;
+    /* background-color: #FFB712; */
+    /* background-color: #001B48; */
+    background-color: #2962FF;
+    border:none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
 }
 
+.more-service-button:hover{
+    background-color: white;
+    outline : 0;
+    color: black;
+}
+
+/* ETIQUETAS PARA EL H2 DE POR QUE ELEGIRNOS */
+h2{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 25px;
+}
+
+hr{
+    width: 100px;
+    border: none;
+    /* background-color: #FFB712; */
+     /* background-color: #004581; */
+     /* background-color: #018ABD; */
+    background-color: #2962FF;
+    height: 3px;
+    margin-top: 5px;
+}
+/* ETIQUETAS DE POR QUÉ ELEGIRNOS */
+
+
+.why-choose {
+    /* background-color: #140B05; */
+    /* background-color: #001B48; */
+    background-color: #FFFFFF;
+    color: black;
+    padding: 20px;
+}
+
+.why-choose h2 {
+    padding-top: 0px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size:35px;
+    margin: 0px;
+}
+
+.why-choose hr{
+    width: 100px;
+    border: none;
+    /* background-color: #FFB712; */
+    /* background-color: #001B48; */
+    background-color: #2962FF;
+    height: 3px;
+    margin-top: 5px;
+}
+
+
+
+/* ETIQUETAS PARA LOS BENEFICIOS */
+
+.why-choose{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.option-list{
+    flex-shrink: 0;
+    width: 250px;
+    /* border:1px solid red; */
+}
+
+.option-list img{
+    padding-left: 90px;
+    width: 50px;
+}
+
+.option{
+    text-align: center;
+    font-size: 15px;
+    color: b1afad;
+}
+
+.option strong{
+    color: black;
+}
+
+/* ETIQUETAS PARA LA SECCION DE CONTACTO */
+
+.contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    background-color: #122134;
+}
+
+
+/* ETIQUETAS PARA EL FORMULARIO DE CONTACTO */
+
+.about-us hr{
+    width: 100px;
+    border: none;
+    /* background-color: #FFB712; */
+     /* background-color: #001B48; */
+     background-color: #2962FF;
+    height: 3px;
+    margin:0px;
+}
+
+
+.about-us-title{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.about-us-description{
+    color: #B7BBBE;
+}
+
+.items-contact{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+
+.items-description{
+    margin-left: 10px;
+    color: white;
+}
+
+.form-contact{
+    padding-top: 20px;
+    width: 470px;
+    height: 460px;
+    /* border: 1px solid blue; */
+    background-color: white;
+}
+
+.text-contact{
+    margin-left: 30px;
+    color: black;
+}
+.input-contact{
+    width: 402px;
+    height: 50px;
+    margin: 10px 30px;
+    border: 0.5px solid #D7D9DD;
+    border-radius: 4px;
+}
+
+.input-contact::placeholder{
+    color: #D7D9DD;
+}
+
+.input-message{
+    width: 402px;
+    height: 75px;
+    margin: 10px 30px;
+    border: 0.5px solid #D7D9DD;
+    border-radius: 4px;
+}
+.input-message::placeholder{
+    color: #D7D9DD;
+}
+
+
+.message-button{
+    margin-left: 130px;
+    margin-top: 20px;
+    height: 65px;
+    width: 200px;
+    font-size: 13px;
+    /* color: black; */
+    color: white;
+    /* background-color: #FFB712; */
+    /* background-color: #001B48; */
+    background-color: #2962FF;
+    border:none;
+    outline: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.footer{
+    background-color: #122134;
+     color: white;
+     display: flex;
+     align-items: center;
+     height: 100px;
+     justify-content: space-between;
+}
+
+.footer h1{
+    margin-right: auto;
+}
+
+.footer p{
+    text-align: center;
+}
 
 /* ETIQUETAS GENERALES */
 .container {
@@ -274,6 +492,8 @@ ol, ul {
     align-items: inherit;
     flex-wrap: inherit;
 }
+
+
 
 
 
